@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E5E7; /* Dark background for the entire page */
+    color: #0E0F23; /* Light text color for contrast */
+}
+.main-body{
+    background-image:url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #757179; /* Neutral dark gray for the header */
+    padding: 3rem 2rem;
+    color: #0c0c0f; /* Light text color for the header */
+ 
+}
+
+#upper-header{
+    margin: 110px;
+    border-radius: 15px;
+}
+
+
+
+.profile-pic {
+    border-radius: 15px; /* Rounded corners */
+    border: 3px solid #E6E5E7; /* Light border for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    margin-right: 20px; /* Subtle shadow for depth */
+}
+
+.navbar {
+    background-color: #757179; /* Neutral gray for the navbar */
+    margin-bottom: 20px;
+    color: #E6E5E7; /* Light text color */
+}
+
+h1 {
+    margin-bottom: 0.5rem; /* Spacing below the heading */
+    color:#0E0F23; /* Brighter color for headings */
+}
+
+.professional-summary {
+    font-size: 1rem; /* Professional font size for the summary */
+    color: #040108; /* Light text color */
+    max-width: 400px; /* Restrict the summary width for readability */
+    line-height: 1.5; /* Better line spacing for clarity */
+    text-align: justify; /* Justify the text for a clean alignment */
+}
+
+
+section {
+    margin-top: 40px;
+    background-color: #757179; /* Dark gray background for sections */
+    color: #0E0F23;
+     /* Light text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Subtle shadow for section cards */
+}
+
+footer {
+    background-color: #757179; /* Match footer to header */
+    color: #E6E5E7; /* Light text for footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #E9E3F1; /* Slightly brighter text for hoverable elements */
+}
+.hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* Light shadow on hover */
+}
+
+#projects{
+    background-color: #faf2f2;
+}
+
+.text-center{
+    color:#edc993;
+}
